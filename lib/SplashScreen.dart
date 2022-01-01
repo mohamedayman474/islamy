@@ -18,7 +18,7 @@ class SplashScreen extends StatelessWidget {
   void NavigaiteToHome(BuildContext context,String ScreenName){
 
     Future.delayed(Duration(seconds: 2,),(){
-      Navigator.pushNamed(context, ScreenName);
+      Navigator.pushReplacementNamed(context, ScreenName);
     }) ;
     
   }
